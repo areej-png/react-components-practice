@@ -1,16 +1,84 @@
-# React + Vite
+# 🐾 Pawfect Shelter – React Adoption Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and modern pet adoption website built using **React + Vite**.  
+Users can explore featured pets, learn about the shelter, and contact for adoption inquiries.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- 🏠 Beautiful Home Section: Engaging hero area with a warm welcome and call-to-action.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ℹ️ About Section: Describes the shelter’s purpose, goals, and love for animals.
 
-## Expanding the ESLint configuration
+- 🐶 View Pets Section: Displays all adoptable pets using dynamic cards (with image, breed, and age).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 💌 Contact Section: Fully responsive contact form with styled inputs and buttons.
+
+- ⚙️ Sticky Footer: Clean and minimal copyright footer.
+
+- 🎨 Responsive Design: Works smoothly on desktop, tablet, and mobile.
+
+---
+
+## 🧩 Tech Stack
+
+- **React** – UI Components  
+- **Vite** – Fast build tool  
+- **CSS3** – Custom styling  
+- **JSX** – Component structure  
+- **Flexbox & Grid** – Layout  
+
+---
+
+## 🛠️ Folder Structure
+```bash
+src/
+├── components/
+│ ├── About.jsx
+│ ├── Contact.jsx
+│ ├── Content.jsx
+│ ├── Footer.jsx
+│ ├── Header.jsx
+│ └── PetCard.jsx
+│ └── viewpets.jsx
+├── data/
+│ ├── pets.js
+├── About.css
+├── App.css
+├── App.jsx
+├── content.css
+├── footer.css
+├── Header.css
+├── index.css
+└── main.jsx
+├── pets.css
+```
+
+---
+
+## 📸 Preview
+![Home Section](https://github.com/user-attachments/assets/0d7cd6b8-6fda-4e95-ad02-e60ac0d51079)
+
+![About Section](https://github.com/user-attachments/assets/96d18283-97fe-4d34-8ffc-e8b849600db5)
+
+![View Pets Section](https://github.com/user-attachments/assets/823445a7-cbe2-48cf-bb9a-e22ee714a9eb)
+
+![Contact & Footer Section](https://github.com/user-attachments/assets/930ba896-9551-4e7e-87c6-41162afb664a)
+
+
+---
+
+## 💡 Future Enhancements
+
+- Add pet detail modal or route  
+- Include search/filter functionality  
+- Dark/light mode toggle  
+- API integration for pet data  
+
+---
+
+## 📄 License
+
+© 2025 Pawfect Shelter – All rights reserved.
+
