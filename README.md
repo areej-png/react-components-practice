@@ -58,13 +58,19 @@ src/
 ---
 
 ## 📸 Preview
+
+### 🏠 Home Section
 ![Home Section](https://github.com/user-attachments/assets/0d7cd6b8-6fda-4e95-ad02-e60ac0d51079)
 
+### ℹ️ About Section
 ![About Section](https://github.com/user-attachments/assets/96d18283-97fe-4d34-8ffc-e8b849600db5)
 
+### 🐶 View Pets Section
 ![View Pets Section](https://github.com/user-attachments/assets/823445a7-cbe2-48cf-bb9a-e22ee714a9eb)
 
+### 💌 Contact & Footer Section
 ![Contact & Footer Section](https://github.com/user-attachments/assets/930ba896-9551-4e7e-87c6-41162afb664a)
+
 
 
 ---
