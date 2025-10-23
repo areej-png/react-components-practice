@@ -3,24 +3,30 @@ import Content from "./components/Content";
 import About from "./components/About";
 import React from "react";
 import ViewPets from "./components/viewpets"
-import Contact from "./components/Contact"; 
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+
 import './About.css';
 import './Header.css';
 import './content.css';
 import './pets.css';
-import './App.css'
+import './App.css';
+import './footer.css'
 
 
 function App() {
   return (
     <>
       <Header />
+      <main>
       <Content />
       <About />
       <div className="App">
         <ViewPets />
       </div>
       <Contact />
+      </main>
+      <Footer />
     </>
   );
 }
